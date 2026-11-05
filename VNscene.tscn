@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://ddh2cc7q3slh2"]
+
+[ext_resource type="Texture2D" uid="uid://dploe1qdt4nb4" path="res://Assets/VN/The Calling - Scene 01A.png" id="1_7jj0f"]
+[ext_resource type="Texture2D" uid="uid://bi0nyks55mjgt" path="res://Assets/VN/The Calling - Scene 01B.png" id="2_losoy"]
+[ext_resource type="Texture2D" uid="uid://jwpl1jpcuojw" path="res://Assets/VN/The Calling - Scene 01C.png" id="3_y5j3t"]
+
+[node name="VNScene" type="Control" unique_id=216152892]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Stasiun_normal" type="TextureRect" parent="." unique_id=859638823]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_7jj0f")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Stasiun_transisi1" type="TextureRect" parent="." unique_id=1544933006]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_losoy")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Stasiun_transisi2" type="TextureRect" parent="." unique_id=559641614]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_y5j3t")
+expand_mode = 1
+stretch_mode = 6
